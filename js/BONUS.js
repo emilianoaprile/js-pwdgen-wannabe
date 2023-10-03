@@ -5,21 +5,21 @@
         let userNameBonus;
 //     - assegnare alla variabile il valore restituito da un prompt
         userNameBonus = prompt ('Ciao, inserisci il nome!');
-        console.log(userName);
+        console.log(userNameBonus);
 
 // ### Chiedere il cognome all'utente:
 //     - dichiarare una variabile "cognome"
         let userSurnameBonus;
 //     - asseganre alla variabile il valore restituito da un prompt
         userSurnameBonus = prompt ('Perfetto, ora inserisci il tuo cognome!');
-        console.log(userSurname);
+        console.log(userSurnameBonus);
 
 // ### Chiedere il colore preferito all'utente:
 //     - dichiarare una variabile "colore preferito"
         let userColorBonus;
 //     - assegnare alla variabile il valore restituito da un prompt
         userColorBonus = prompt ('Ottimo, ora inserisci il tuo colore preferito!')
-        console.log(userColor);
+        console.log(userColorBonus);
 
 // ## Creare un numero random da inserire nella password:
 //     - dichiarare il range minimo e massimo del numero:
@@ -39,6 +39,7 @@
         let userPasswordRandom;
 //     - assegnare una variabile con le variabili concatenate "userPasswordRandom"
         userPasswordRandom = userNameBonus + userSurnameBonus + userColorBonus + randomNumber;
+        console.log(userPasswordRandom);
 
 
 // ## Stampare il risultato sul browser:
