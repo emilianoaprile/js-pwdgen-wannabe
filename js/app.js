@@ -36,6 +36,8 @@
         console.log (userPassword);
 
 // ## Stampare il risultato sul browser:
-//     - inserire nell'html un tag con id="password"
-//     - recuperare con js l'elemento con id="password"
+//     - inserire nell'html un tag con id="userPassword"
+//     - recuperare con js l'elemento con id="userPassword"
+        const userPasswordDomElement = document.getElementById('userPassword')
 //     - modificare l'innerHTML del tag con il valore della variabile "userPassword"
+        userPasswordDomElement.innerHTML = userPassword
