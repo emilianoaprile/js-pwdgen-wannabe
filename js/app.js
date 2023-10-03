@@ -23,7 +23,7 @@
 
 // ## Decidere un numero da inserire nella password:
 //     - dichiarare una variabile const "numero"
-        const passwordNumber = '21'
+        const passwordNumber = '21';
         console.log (passwordNumber);
 
 // ## Risultato: concatenare la password 
