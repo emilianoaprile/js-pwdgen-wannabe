@@ -22,22 +22,20 @@
         console.log (userColor);
 
 // ## Decidere un numero da inserire nella password:
-//     - dichiarare una variabile "numero"
-        let pswNumber;
-//     - asseganre alla variabile il valore del numero scelto
-        pswNumber = '21';
-        console.log (pswNumber);
+//     - dichiarare una variabile const "numero"
+        const passwordNumber = '21'
+        console.log (passwordNumber);
 
 // ## Risultato: concatenare la password 
 //     - concatenare le variabili "nome" + "cognome" + "colore preferito" + "numero"
         let userPassword;
 //     - assegnare una variabile con le variabili concatenate "userPassword"
-        userPassword = userName + userSurname + userColor + pswNumber;
+        userPassword = userName + userSurname + userColor + passwordNumber;
         console.log (userPassword);
 
 // ## Stampare il risultato sul browser:
 //     - inserire nell'html un tag con id="userPassword"
 //     - recuperare con js l'elemento con id="userPassword"
-        const userPasswordDomElement = document.getElementById('userPassword')
+        const userPasswordDomElement = document.getElementById('userPassword');
 //     - modificare l'innerHTML del tag con il valore della variabile "userPassword"
-        userPasswordDomElement.innerHTML = userPassword
+        userPasswordDomElement.innerHTML = userPassword;
